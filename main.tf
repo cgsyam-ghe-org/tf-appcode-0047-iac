@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "example" {
-  name          = "test-wif-poc"
+resource "google_storage_bucket" "default" {
+  name          = "test-wif"
   location      = "EU"
 }
